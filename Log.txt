@@ -1,0 +1,17 @@
+Created client Hubert Majewski with two closed accounts.
+State of checking true
+State of savings true
+Created client Another User Here with two closed accounts.
+State of checking true
+Added 100.0 to 1
+Transferred from checking of user Hubert Majewski  with value 3
+Created client Yet Another User with two closed accounts.
+Created client Im Running Out Of Names with two closed accounts.
+ 
+//ERROR
+There is a user with the givin SSN already. on line 23
+
+State of savings true
+Added 1000.34 to 8
+Withdrew 0.34 from 8
+State of checking false

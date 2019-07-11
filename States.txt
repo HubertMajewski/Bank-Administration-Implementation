@@ -1,0 +1,18 @@
+Read 14 lines successfully.
+There are 1 errors in Input.txt. See Log.txt
+
+Client 1
+Yet Another User 
+
+Client 2
+Another User Here 
+
+Client 3
+Hubert Majewski 
+	Checking: #1 $50.0
+	Savings: #2 $0.0
+
+Client 4
+Im Running Out Of Names 
+	Savings: #8 $1000.0
+

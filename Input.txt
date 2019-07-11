@@ -1,0 +1,38 @@
+//Create user and open checking and savings
+//Note every user has two accounts automatically created with them
+0 234 Hubert Majewski
+1 234
+2 234
+
+//Create another user and activate checking
+0 456 Another User Here
+1 456
+
+//Deposit 100 into account (Both work)
+//5 1 100
+5 1 100.00
+
+//Transfer 50 from user 234's checking to 456 checking (account 3)
+3 234 50 3
+
+//Create a third and fourth user
+0 678 Yet Another User
+0 123 Im Running Out Of Names
+
+//SSN conflict
+0 456 Im A Copycat
+
+//Open savings of 123 (account 8)
+2 123 
+
+//Deposit 1000.34 to 456 savings
+5 8 1000.34
+
+//Withdraw .34c from 456 savings
+6 8 .34
+
+//Manually print current database into console
+9
+
+//Close 456's checking
+1 456
