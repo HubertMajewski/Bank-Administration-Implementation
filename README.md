@@ -2,24 +2,26 @@
 
 
 //The idea behind it
+
 The idea behind the organization of my program is to catch any argument or
 account errors that may come up when writing into the Input.txt file. Henceforth, 
 this is why I have exceptions being passed through the functions. If there is an
 exception from a given line, it will be passed to the try surrounding the line 
 execution inside the for loop. The exception would be stated and shown where it 
-has occured in the Input.txt file. ObjectNotActiveExceptions will be throws if 
+has occurred in the Input.txt file. ObjectNotActiveExceptions will be throws if 
 the Input.txt file is trying to access an account that is deactivated, therefore 
-it will print the line in the logfile that the given command can not do that
+it will print the line in the log file that the given command can not do that
 unless it opens the account of the client.
 
 
 //Development
+
 Each command has a corresponding command code allowing the bank administrator 
 to perform actions on account and clients themselves. See "How it works." There 
 have been many thoughts between Enoch and I on how to approach this project. 
 I have settled with using HashMaps due to their versatility and time complexities.
 One challenge I had with this project is the creative freedom associated with it.
-There are many different approaches towards this problem that I couldn't finalize 
+There are many different approaches towards this problem that I could not finalize 
 myself to choose one. But, after discussing with Enoch, I found the best one I 
 should go for. Another problem I had was having everything redirected through the 
 BankAdministration class to utilize all of the interfaces I have come up with. 
@@ -28,6 +30,7 @@ reformatting to fit the project needs.
 
 
 //How it works
+
 This program takes a set of commands from the "Input.txt" file. 
 These commands would tell the bank database to either create a new 
 client, toggle (activate or inactivate) the clients checking or savings account,
